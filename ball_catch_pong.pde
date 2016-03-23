@@ -11,7 +11,7 @@ void setup()
 }
 void draw()
 {
-  background(10, 10, 10);
+  background(random(255), random(255), random(255));
   ballx=ballx+Speed;
   bally=bally+Speedy;
   rect(mouseX, 50, 100, 100);
